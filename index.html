@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Fitness Bot</title>
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-800 text-slate-100 antialiased"
+      style="font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="sticky top-0 z-20 border-b border-white/10 bg-slate-950/70 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-4">
+        <div class="flex items-center gap-2">
+            <div class="h-8 w-8 rounded-xl bg-emerald-500 flex items-center justify-center text-slate-950 font-bold text-lg">
+                F
+            </div>
+            <div>
+                <h1 class="text-lg md:text-xl font-semibold tracking-tight">Smart Fitness</h1>
+                <p class="text-xs text-slate-400 hidden sm:block">AI-powered coaching, anytime.</p>
+            </div>
+        </div>
+
+        <ul class="hidden sm:flex flex-wrap items-center gap-6 text-sm md:text-base font-medium text-slate-200">
+            <li class="cursor-pointer hover:text-emerald-400 transition-colors">Home</li>
+            <li class="cursor-pointer hover:text-emerald-400 transition-colors">About</li>
+            <li class="cursor-pointer hover:text-emerald-400 transition-colors">Testimonials</li>
+            <li class="cursor-pointer hover:text-emerald-400 transition-colors">Contact</li>
+        </ul>
+
+        <button
+            class="hidden sm:inline-flex items-center gap-2 rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-emerald-500/30 hover:bg-emerald-400 transition">
+            Get Started
+        </button>
+    </div>
+</nav>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="max-w-6xl mx-auto px-4 md:px-8 py-10 md:py-16">
+
+    <div class="grid gap-10 md:gap-14 items-center md:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
+
+        <!-- TEXT -->
+        <div class="space-y-8">
+            <div class="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-200">
+                <span class="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                Smart AI · 24/7 Fitness Coaching
+            </div>
+
+            <div class="space-y-4">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight">
+                    Get coached by<br>
+                    <span class="text-emerald-400">the master of transformations</span>
+                </h2>
+
+                <p class="text-sm sm:text-base md:text-lg text-slate-300 max-w-xl">
+                    Turn confusing fitness advice into a clear, personalized plan.
+                    Ask any question and get instant, science-backed guidance tailored
+                    to your body, routine, and goals.
+                </p>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+                <button
+                    class="inline-flex items-center justify-center rounded-full bg-emerald-500 px-6 py-3 text-sm md:text-base font-semibold text-slate-950 shadow-lg shadow-emerald-500/40 hover:bg-emerald-400 transition">
+                    Start your transformation
+                </button>
+                <button
+                    class="inline-flex items-center justify-center rounded-full border border-slate-600/70 bg-slate-900/40 px-6 py-3 text-sm md:text-base font-medium text-slate-100 hover:border-emerald-400/70 hover:bg-slate-900/70 transition">
+                    View sample plans
+                </button>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 max-w-md text-xs sm:text-sm">
+                <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-3 sm:p-4">
+                    <p class="text-emerald-400 font-semibold text-base sm:text-lg">10k+</p>
+                    <p class="text-slate-400 text-[11px] sm:text-xs">Workouts generated</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-3 sm:p-4">
+                    <p class="text-emerald-400 font-semibold text-base sm:text-lg">4.9★</p>
+                    <p class="text-slate-400 text-[11px] sm:text-xs">Average satisfaction</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-3 sm:p-4">
+                    <p class="text-emerald-400 font-semibold text-base sm:text-lg">24/7</p>
+                    <p class="text-slate-400 text-[11px] sm:text-xs">Always available</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAGE AREA -->
+        <div class="relative flex justify-center md:justify-end">
+
+            <!-- accent glow -->
+            <div
+                class="absolute -inset-6 rounded-full bg-emerald-500/30 blur-3xl opacity-40 pointer-events-none">
+            </div>
+
+            <!-- layered shapes -->
+            <div class="relative">
+                <div class="absolute -top-10 -left-8 sm:-left-12 w-40 h-40 sm:w-52 sm:h-52 rounded-[2rem] bg-slate-900/80 border border-white/10"></div>
+                <div class="absolute -bottom-8 -right-8 w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-emerald-500/80 shadow-xl shadow-emerald-500/40"></div>
+
+                <!-- YOUR IMAGE (change file name if needed) -->
+                <img src="images/fitness.avif"
+                     class="relative z-10 w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 object-cover rounded-[2.5rem] border border-white/10 shadow-2xl shadow-black/60">
+
+                <!-- floating badge -->
+                <div
+                    class="absolute -bottom-4 left-6 sm:left-10 z-20 rounded-2xl bg-slate-950/90 border border-white/15 px-4 py-2 flex items-center gap-2 text-xs sm:text-sm">
+                    <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-500 text-slate-950 font-semibold">
+                        💪
+                    </span>
+                    <div>
+                        <p class="font-semibold leading-tight">Personalized Plans</p>
+                        <p class="text-[11px] text-slate-400 leading-tight">Nutrition · Training · Recovery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CHAT BUTTON ================= -->
+<button onclick="toggleChat()"
+class="fixed bottom-6 right-4 sm:right-6 z-30 flex items-center gap-2 bg-emerald-500 text-slate-950 font-semibold px-5 py-3 rounded-full shadow-lg shadow-emerald-500/40 hover:bg-emerald-400 hover:scale-105 active:scale-95 transition">
+<span
+    class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-950/10 text-lg">💬</span>
+<span class="hidden sm:inline">Chat with coach</span>
+<span class="sm:hidden">Chat</span>
+</button>
+
+
+<!-- ================= CHATBOT POPUP ================= -->
+<div id="chatbot"
+class="hidden fixed bottom-24 right-4 sm:right-6 left-4 sm:left-auto z-40 w-auto sm:w-80 max-w-md bg-slate-900/95 text-slate-50 rounded-2xl shadow-2xl border border-white/10 p-4 backdrop-blur">
+
+    <!-- HEADER -->
+    <div class="flex justify-between items-center mb-3">
+        <div>
+            <h2 class="font-semibold text-sm">Smart Fitness Bot</h2>
+            <p class="text-[11px] text-emerald-300/90">Ask me anything about workouts & nutrition.</p>
+        </div>
+        <button onclick="toggleChat()"
+                class="text-slate-400 hover:text-slate-100 transition text-lg leading-none">
+            ✕
+        </button>
+    </div>
+
+    <!-- CHATBOX -->
+    <div id="chatbox"
+         class="h-64 overflow-y-auto border border-white/10 rounded-xl p-3 space-y-2 bg-slate-900/80 text-sm">
+    </div>
+
+    <!-- INPUT -->
+    <div class="flex gap-2 mt-3">
+        <input id="userInput"
+               type="text"
+               placeholder="Ask fitness question..."
+               class="flex-1 border border-white/15 bg-slate-900/70 px-3 py-2 rounded-xl text-sm placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/70 focus:border-transparent">
+
+        <button onclick="sendMessage()"
+                class="bg-emerald-500 text-slate-950 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-emerald-400 transition shadow-md shadow-emerald-500/40">
+            Send
+        </button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

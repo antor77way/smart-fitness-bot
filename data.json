@@ -1,0 +1,162 @@
+{
+  "fitness_data": {
+    "workouts": {
+      "basics": {
+        "warm_up": "Always warm up before exercise (5–10 minutes)",
+        "light_weight": "Start with light weight if you are beginner",
+        "form": "Maintain correct exercise form",
+        "rush": "Do not rush exercises",
+        "rest": "Take rest between sets",
+        "stretch": "Always stretch after workout"
+      },
+      "beginner_example": [
+        "Push-ups → Chest",
+        "Squats → Legs",
+        "Plank → Core",
+        "Walking → Cardio"
+      ],
+      "recommended_days": {
+        "beginner": "3 days per week",
+        "intermediate": "4–5 days per week",
+        "advanced": "5–6 days per week"
+      }
+    },
+    "muscle_gain": {
+      "requirements": [
+        "Strength training",
+        "Protein rich diet",
+        "Proper sleep",
+        "Consistency"
+      ],
+      "best_exercises": {
+        "bench_press": "Chest",
+        "squat": "Legs",
+        "deadlift": "Full body",
+        "pull_ups": "Back",
+        "shoulder_press": "Shoulder"
+      },
+      "foods": [
+        "Eggs",
+        "Chicken",
+        "Fish",
+        "Milk",
+        "Rice",
+        "Banana",
+        "Peanut butter",
+        "Lentils"
+      ],
+      "tips": [
+        "Increase protein intake",
+        "Increase workout intensity slowly",
+        "Sleep at least 7 hours",
+        "Stay consistent"
+      ]
+    },
+    "weight_loss": {
+      "description": "Weight loss depends on calorie balance",
+      "fat_burning_exercises": [
+        "Running",
+        "Cycling",
+        "Jump rope",
+        "Treadmill",
+        "Burpees",
+        "Stair climbing"
+      ],
+      "tips": [
+        "Avoid junk food",
+        "Reduce sugar",
+        "Drink more water",
+        "Walk daily",
+        "Sleep properly",
+        "Eat vegetables",
+        "Control portion size"
+      ],
+      "cardio_time": "20–40 minutes daily"
+    },
+    "diet": {
+      "description": "Balanced diet should include",
+      "protein": [
+        "Eggs",
+        "Fish",
+        "Chicken",
+        "Lentils"
+      ],
+      "carbohydrates": [
+        "Rice",
+        "Oats",
+        "Potato"
+      ],
+      "vegetables": [
+        "Spinach",
+        "Broccoli",
+        "Carrot",
+        "Tomato"
+      ],
+      "fruits": [
+        "Apple",
+        "Banana",
+        "Orange",
+        "Berries"
+      ]
+    },
+    "bmi_guidelines": {
+      "underweight": "BMI < 18.5",
+      "normal": "BMI 18.5 - 24.9",
+      "overweight": "BMI 25 - 29.9",
+      "obese": "BMI ≥ 30"
+    },
+    "hydration": {
+      "recommended": "8-10 glasses of water per day",
+      "benefits": [
+        "Improves energy",
+        "Helps digestion",
+        "Supports workout recovery",
+        "Maintains body temperature"
+      ]
+    },
+    "recovery": {
+      "description": "Recovery is crucial for fitness results",
+      "sleep": "Sleep 7-8 hours per night",
+      "rest_days": "Take 1-2 rest days per week",
+      "stretching": "Stretch 10 minutes after workout",
+      "nutrition": "Eat balanced meals after workout"
+    },
+    "motivation": {
+      "tips": [
+        "Set realistic short-term goals",
+        "Track your progress",
+        "Find a workout partner",
+        "Mix up your routine",
+        "Focus on how you feel, not just appearance",
+        "Celebrate small wins",
+        "Stay consistent even on rest days"
+      ]
+    },
+    "gym_schedule": {
+      "male": {
+        "morning": {
+          "time": "6:00 AM – 12:00 PM",
+          "description": "Morning workout session"
+        },
+        "afternoon": {
+          "time": "3:00 PM – 10:00 PM",
+          "description": "Afternoon and evening workout session"
+        },
+        "extra_training": {
+          "time": "10:00 PM – 11:00 PM",
+          "description": "Extra training time"
+        }
+      },
+      "female": {
+        "morning": {
+          "time": "7:00 AM – 11:00 AM",
+          "description": "Morning workout session"
+        },
+        "afternoon": {
+          "time": "2:00 PM – 8:00 PM",
+          "description": "Afternoon workout session"
+        }
+      }
+    }
+  }
+}
